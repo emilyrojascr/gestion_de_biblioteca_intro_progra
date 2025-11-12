@@ -1,0 +1,37 @@
+[
+  {
+    "titulo": "La Odisea",
+    "autor": "Homero",
+    "genero": "FICCION",
+    "editorial": "Penguin Clásicos",
+    "estadoLibro": "DISPONIBLE"
+  },
+  {
+    "titulo": "Don Quijote de la Mancha",
+    "autor": "Miguel de Cervantes",
+    "genero": "FICCION",
+    "editorial": "Cátedra",
+    "estadoLibro": "PRESTADO"
+  },
+  {
+    "titulo": "El origen de las especies",
+    "autor": "Charles Darwin",
+    "genero": "CIENCIA",
+    "editorial": "Modern Library",
+    "estadoLibro": "DISPONIBLE"
+  },
+  {
+    "titulo": "Steve Jobs",
+    "autor": "Walter Isaacson",
+    "genero": "BIOGRAFIA",
+    "editorial": "Simon & Schuster",
+    "estadoLibro": "DETERIORADO"
+  },
+  {
+    "titulo": "El Hobbit",
+    "autor": "J.R.R. Tolkien",
+    "genero": "FANTASIA",
+    "editorial": "Minotauro",
+    "estadoLibro": "PERDIDO"
+  }
+]

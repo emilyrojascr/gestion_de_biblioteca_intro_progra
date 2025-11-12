@@ -22,6 +22,17 @@ public class Libro {
     private EstadoLibro estadoLibro;
     private int vecesPrestado;
 
+    public Libro(String isbn, String titulo, String autor, Genero genero, String editorial, int anioPublicacion, EstadoLibro estadoLibro, int vecesPrestado) {
+        this.isbn = isbn;
+        this.titulo = titulo;
+        this.autor = autor;
+        this.genero = genero;
+        this.editorial = editorial;
+        this.anioPublicacion = anioPublicacion;
+        this.estadoLibro = estadoLibro;
+        this.vecesPrestado = vecesPrestado;
+    }
+
     
     
     //getters para la clase Libro
@@ -53,7 +64,7 @@ public class Libro {
     public EstadoLibro getEstadoLibro() {
         return estadoLibro;
     }
-
+    
     public int getVecesPrestado() {
         return vecesPrestado;
     }
@@ -93,6 +104,16 @@ public class Libro {
     public void setVecesPrestado(int vecesPrestado) {
         this.vecesPrestado = vecesPrestado;
     }
+
+    @Override
+    public String toString() {
+        return "Libro{" + "isbn=" + isbn + ", titulo=" + titulo + ", autor=" + autor + ", genero=" + genero + ", editorial=" + editorial + ", anioPublicacion=" + anioPublicacion + ", estadoLibro=" + estadoLibro + ", vecesPrestado=" + vecesPrestado + '}';
+    }
+    
+    public String mostrar() {
+        return "|" + isbn + "   |" + titulo + "    |" + autor + "   |" + genero + "    |" + editorial + "     |" + anioPublicacion + "    |" + estadoLibro + "    |" + vecesPrestado + "    |";
+    }
+    
 }
 
 

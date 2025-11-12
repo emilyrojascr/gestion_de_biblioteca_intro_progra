@@ -14,10 +14,13 @@ public class SistemaGestionBiblioteca {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Catalogo catalogo= new Catalogo();
+        catalogo.mostrarCatalogo();
+        System.out.println("\n");
+        catalogo.agregarLibro();
+        System.out.println("\n");
+        catalogo.mostrarCatalogo();
         
-        
-        // TODO
     }
     
 }
