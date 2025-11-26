@@ -15,12 +15,12 @@ public class SistemaGestionBiblioteca {
      */
     public static void main(String[] args) {
         Catalogo catalogo= new Catalogo();
-        catalogo.mostrarCatalogo();
-        System.out.println("\n");
-        catalogo.agregarLibro();
-        System.out.println("\n");
-        catalogo.mostrarCatalogo();
-        
+        catalogo.mostrarMenuCatalogo();
+//        catalogo.mostrarCatalogo();
+//        System.out.println("\n");
+//        catalogo.agregarLibro();
+//        System.out.println("\n");
+//        catalogo.mostrarCatalogo();
     }
     
 }

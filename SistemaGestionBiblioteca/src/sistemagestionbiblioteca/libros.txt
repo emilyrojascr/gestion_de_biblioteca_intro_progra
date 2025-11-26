@@ -1,0 +1,50 @@
+La Odisea,Homero,Penguin Clasicos
+Don Quijote de la Mancha,Miguel de Cervantes,Catedra
+El origen de las especies,Charles Darwin,Modern Library
+Steve Jobs,Walter Isaacson,Simon & Schuster
+El Hobbit,J.R.R. Tolkien,Minotauro
+Cien anos de soledad,Gabriel Garcia Marquez,Sudamericana
+1984,George Orwell,Secker & Warburg
+Fahrenheit 451,Ray Bradbury,Ballantine Books
+Orgullo y prejuicio,Jane Austen,Thomas Egerton
+Cronica de una muerte anunciada,Gabriel Garcia Marquez,Diana
+El Principito,Antoine de Saint-Exupery,Reynal & Hitchcock
+Matar a un ruisenor,Harper Lee,J. B. Lippincott & Co.
+El viejo y el mar,Ernest Hemingway,Charles Scribner's Sons
+La sombra del viento,Carlos Ruiz Zafon,Planeta
+Los juegos del hambre,Suzanne Collins,Scholastic
+La chica del tren,Paula Hawkins,Riverhead Books
+El nombre del viento,Patrick Rothfuss,DAW Books
+Juego de tronos,George R. R. Martin,Bantam Books
+It,Stephen King,Viking Press
+El codigo Da Vinci,Dan Brown,Doubleday
+Los pilares de la tierra,Ken Follett,Macmillan
+Dracula,Bram Stoker,Archibald Constable & Co.
+Frankenstein,Mary Shelley,Lackington, Hughes, Harding, Mavor & Jones
+El retrato de Dorian Gray,Oscar Wilde,Ward, Lock & Co.
+Moby-Dick,Herman Melville,Harper & Brothers
+El gran Gatsby,F. Scott Fitzgerald,Charles Scribner's Sons
+El alquimista,Paulo Coelho,HarperOne
+Yo, Robot,Isaac Asimov,Gnome Press
+Neuromante,William Gibson,Ace Books
+Dune,Frank Herbert,Chilton Books
+La carretera,Cormac McCarthy,Alfred A. Knopf
+El psicoanalista,John Katzenbach,Bantam Books
+Caballo de Troya,J. J. Benitez,Planeta
+El perfume,Patrick Suskind,Diogenes Verlag
+Cometas en el cielo,Khaled Hosseini,Riverhead Books
+Sapiens,Yuval Noah Harari,Harvill Secker
+Homo Deus,Yuval Noah Harari,Harvill Secker
+La bailarina de Auschwitz,Edith Eger,Random House
+El hombre en busca de sentido,Viktor Frankl,Beacon Press
+La biblioteca de la medianoche,Matt Haig,Canongate Books
+El silencio de los corderos,Thomas Harris,St. Martin's Press
+El extranjero,Albert Camus,Gallimard
+Rayuela,Julio Cortazar,Sudamericana
+El amor en los tiempos del colera,Gabriel Garcia Marquez,Oveja Negra
+Norwegian Wood,Haruki Murakami,Kodansha
+Kafka en la orilla,Haruki Murakami,Shinchosha
+La mujer en la ventana,A. J. Finn,William Morrow
+La casa de los espiritus,Isabel Allende,Plaza & Janes
+El medico,Noah Gordon,Simon & Schuster
+Ensayo sobre la ceguera,Jose Saramago,Alfaguara

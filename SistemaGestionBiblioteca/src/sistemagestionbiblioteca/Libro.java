@@ -104,11 +104,6 @@ public class Libro {
     public void setVecesPrestado(int vecesPrestado) {
         this.vecesPrestado = vecesPrestado;
     }
-
-    @Override
-    public String toString() {
-        return "Libro{" + "isbn=" + isbn + ", titulo=" + titulo + ", autor=" + autor + ", genero=" + genero + ", editorial=" + editorial + ", anioPublicacion=" + anioPublicacion + ", estadoLibro=" + estadoLibro + ", vecesPrestado=" + vecesPrestado + '}';
-    }
     
     public String mostrar() {
         return "|" + isbn + "   |" + titulo + "    |" + autor + "   |" + genero + "    |" + editorial + "     |" + anioPublicacion + "    |" + estadoLibro + "    |" + vecesPrestado + "    |";
@@ -134,7 +129,7 @@ enum Genero {
 
 enum EstadoLibro {
     DISPONIBLE,
+    EN_REPARACION,
+    EXTRAVIADO,
     PRESTADO,
-    DETERIORADO,
-    PERDIDO
 }
