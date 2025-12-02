@@ -6,7 +6,7 @@ package sistemagestionbiblioteca;
 
 /**
  *
- * @author eduar
+ * @author emily
  */
 public class Socio {
  
@@ -16,6 +16,15 @@ public class Socio {
     private EstadoSocio estadoSocio;
     private double multasAcumuladas;
     private int cantidadLibrosPrestadosActual;
+
+    public Socio(String idSocio, String nombreCompleto, String fechaRegistro, EstadoSocio estadoSocio, double multasAcumuladas, int cantidadLibrosPrestadosActual) {
+        this.idSocio = idSocio;
+        this.nombreCompleto = nombreCompleto;
+        this.fechaRegistro = fechaRegistro;
+        this.estadoSocio = estadoSocio;
+        this.multasAcumuladas = multasAcumuladas;
+        this.cantidadLibrosPrestadosActual = cantidadLibrosPrestadosActual;
+    }
 
     
     //getters de la clase Socio
@@ -69,13 +78,13 @@ public class Socio {
 
     public void setCantidadLibrosPrestadosActual(int cantidadLibrosPrestadosActual) {
         this.cantidadLibrosPrestadosActual = cantidadLibrosPrestadosActual;
-    }
 }
-
+}
 //enum para el estado del socio
 
 enum EstadoSocio {
     ACTIVO,
-    INACTIVO,
-    SUSPENDIDO
+    MOROSO,
+    SUSPENDIDO,
+    INACTIVO
 }
