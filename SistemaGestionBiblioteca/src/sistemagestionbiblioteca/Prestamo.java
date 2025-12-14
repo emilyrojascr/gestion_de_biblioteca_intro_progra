@@ -17,7 +17,7 @@ public class Prestamo {
     private int idPrestamo;
     private Socio socio;
     private Libro libro;
-    private String fechaPrestamos;
+    private String fechaPrestamo;
     private String fechaDevolucionEstimada;
     private String fechaDevolucionReal;
     private EstadoPrestamo estadoPrestamo;
@@ -39,8 +39,8 @@ public class Prestamo {
         return libro;
     }
 
-    public String getFechaPrestamos() {
-        return fechaPrestamos;
+    public String getFechaPrestamo() {
+        return fechaPrestamo;
     }
 
     public String getFechaDevolucionEstimada() {
@@ -75,8 +75,8 @@ public class Prestamo {
         this.libro = libro;
     }
 
-    public void setFechaPrestamos(String fechaPrestamos) {
-        this.fechaPrestamos = fechaPrestamos;
+    public void setFechaPrestamo(String fechaPrestamo) {
+        this.fechaPrestamo = fechaPrestamo;
     }
 
     public void setFechaDevolucionEstimada(String fechaDevolucionEstimada) {

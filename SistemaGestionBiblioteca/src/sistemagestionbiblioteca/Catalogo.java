@@ -17,6 +17,10 @@ import javax.swing.JOptionPane;
 public class Catalogo {
     
  private List<Libro> listLibros= new ArrayList<>();
+
+public List<Libro> getListLibros() {
+    return listLibros;
+}
  
  public void mostrarCatalogo(){// primer metodo para mostrar todos los libros
      if (listLibros.size()==0) {
@@ -67,7 +71,7 @@ public class Catalogo {
      mostrarMenuCatalogo();     
  }
  
- public void editarLibro(){
+ public void editarLibro(){ // este metodo
      String isbn =obtenerString("Ingrese el isbn (codigo del libro)");
      Libro libroAEditar = null;
      for (Libro libro : listLibros) {
@@ -76,7 +80,7 @@ public class Catalogo {
              break;
          }
      }
-     if (libroAEditar == null) {
+     if (libroAEditar == null) { // mensaje q no se encontro
         String[] opciones = new String[2];
         opciones[0] = "Ingresar otro ISBN";
         opciones[1] = "Cancelar";

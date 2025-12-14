@@ -5,7 +5,6 @@
 package sistemagestionbiblioteca;
 
 import javax.swing.JOptionPane;
-import static sistemagestionbiblioteca.Catalogo.obtenerOpcion;
 
 /**
  *
@@ -14,6 +13,7 @@ import static sistemagestionbiblioteca.Catalogo.obtenerOpcion;
 public class SistemaGestionBiblioteca {
     private static Catalogo catalogo= new Catalogo();
     private static GestionSocio gestionSocio = new GestionSocio();
+    private static GestionPrestamo gestionPrestamo = new GestionPrestamo(gestionSocio, catalogo);
 
     /**
      * @param args the command line arguments
@@ -42,6 +42,8 @@ public class SistemaGestionBiblioteca {
                 break;
              case 1:
                  //PRESTAMOS
+                 gestionPrestamo.mostrarMenuPrestamo();
+                mostrarMenuPrincipal();
                 break;
              case 2:
                  //CATALOGO

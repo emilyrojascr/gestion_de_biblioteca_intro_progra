@@ -18,6 +18,10 @@ import static sistemagestionbiblioteca.Catalogo.obtenerOpcion;
  */
 public class GestionSocio {
     private List<Socio> listSocios= new ArrayList<>();
+
+    public List<Socio> getListSocios() {
+        return listSocios;
+    }
     
     public void registrarSocio(){
         if (listSocios.size()>=30) {
